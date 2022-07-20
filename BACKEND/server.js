@@ -39,6 +39,10 @@ connection.once("open", () => {
 //     console.log("Not Connected to Database ERROR! ", err);
 // });
 
+const studentRouter = require("./routes/students.js");
+
+app.use("/student", studentRouter);
+
 app.listen(PORT, () => {
     console.log('Server is up and on port number: ' + PORT)
 })
