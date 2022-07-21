@@ -1,0 +1,31 @@
+.App h1 {
+    font-size: 40px;
+    color: red;
+    background-color: #020234;
+    padding: 40px 200px;
+    border-radius: 0px 50px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 8px 8px 8px rgba(255, 0, 0, 0.235);
+}
+
+.counter button {
+    position: relative;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.677);
+    color: white;
+    border: 0px solid;
+    border-radius: 50px;
+    transition: all ease 0.4s;
+}
+
+.counter button:hover {
+    transform: scale(1.2);
+    background-color: red;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: all ease 0.4s;
+}
