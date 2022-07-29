@@ -1,3 +1,7 @@
+body {
+  background-image: url('./../../assets/stu3.jpg');
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +40,5 @@
     transform: rotate(360deg);
   }
 }
+
+
